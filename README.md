@@ -12,7 +12,7 @@ Let's go through an example to clarify remote repositories on Github.
 
 ##Create a local directory
 1. Create a folder: `mkdir git-remote-code-along`
-2. Add a readme: `touch README.md`
+2. Add a README: `touch README.md`
 
 ##Creating a remote repository on Github
 
@@ -26,9 +26,9 @@ Let's go through an example to clarify remote repositories on Github.
 3. `git remote add origin your-remote-repository-URL`. This sets the remote, so you can push and pull code.
 
 ##Push code to Github
-1. Let's add something to our READme. Open the file and add whatever text you'd like.
-2. Now look at the remote repo on Github. Notice that the new text in your READme is not there. Let's fix this by pushing our code up to Github.
-3. If we `git push` right away, we still won't get the changes because we have not tracked and committed the changes. Let's do that: `git add .` and `git commit -m "add content to READme"`
+1. Let's add something to our README. Open the file and add whatever text you'd like.
+2. Now look at the remote repo on Github. Notice that the new text in your README is not there. Let's fix this by pushing our code up to Github.
+3. If we `git push` right away, we still won't get the changes because we have not tracked and committed the changes. Let's do that: `git add .` and `git commit -m "add content to README"`
 4. Now we can `git push`.
 5. Confirm that your changes are now on Github, and you're done!
 
@@ -37,10 +37,10 @@ Let's go through an example to clarify remote repositories on Github.
 
 Sometimes the code on your remote gets ahead of your local code. This could be because you're collaborating with other. It can also occur when you change it directly on Github. Let's try this.
 
-Let's say you liked your READme, but you noticed a minor typo. Let's fix it directly on Github by clicking the READme.md file. 
+Let's say you liked your README, but you noticed a minor typo. Let's fix it directly on Github by clicking the README.md file. 
 
 1. At the top of the file, you'll notice a pencil icon. Clicking this will allow us to edit the file.
-2. Make some changes to the READme
+2. Make some changes to the README
 3. Commit them by clicking the "Commit changes" button at the bottom of the page.
 
 Perfect! The only problem is, now our code on our machine (our local repo) is out of sync with the remote repo. To remedy this, we must pull down the code to our local repo. No surprises here. To do this we run:
