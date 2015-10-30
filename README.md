@@ -17,7 +17,7 @@ Let's go through an example to clarify remote repositories on Github.
 ##Creating a remote repository on Github
 
 1. From your Github profile, click the "Create New Repository" button.
-2. After you create the repo, click the "Copy to clipboard" symbol on the right-hand side of the screen to copy the url (we'll use this in the next section)
+2. After you create the repo, click the "Copy to clipboard" symbol on the right-hand side of the screen to copy the clone url (we'll use this in the next section)
 
 
 ##Connecting your remote repo to a local repo
