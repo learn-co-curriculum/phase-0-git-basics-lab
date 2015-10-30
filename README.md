@@ -35,7 +35,7 @@ Let's go through an example to clarify remote repositories on Github.
 
 ##Pull code from Github
 
-Sometimes the code on your remote gets ahead of your local code. This could be because you're colaborating with other. It can also occur when you change it directly on Github. Let's try this.
+Sometimes the code on your remote gets ahead of your local code. This could be because you're collaborating with other. It can also occur when you change it directly on Github. Let's try this.
 
 Let's say you liked your READme, but you noticed a minor typo. Let's fix it directly on Github by clicking the READme.md file. 
 
