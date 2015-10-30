@@ -12,7 +12,7 @@ Let's go through an example to clarify remote repositories on Github.
 
 ##Create a local directory
 1. Create a folder: `mkdir git-remote-code-along`
-2. Add a readme: `touch READme.md`
+2. Add a readme: `touch README.md`
 
 ##Creating a remote repository on Github
 
