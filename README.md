@@ -21,7 +21,7 @@ Let's go through an example to clarify remote repositories on Github.
 
 
 ##Connecting your remote repo to a local repo
-1. `git --init`
+1. `git init`
 2. `git add .` + `git commit -m "initialize git"`. Add and commit the new file created by the init command in the step 1.
 3. `git remote add origin your-remote-repository-URL`. This sets the remote, so you can push and pull code.
 
