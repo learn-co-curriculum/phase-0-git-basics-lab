@@ -55,3 +55,5 @@ Perfect! The only problem is, now our code on our machine (our local repo) is ou
 ```bash
 git pull
 ``` 
+
+<a href='https://learn.co/lessons/git-remote-code-along' data-visibility='hidden'>View this lesson on Learn.co</a>
