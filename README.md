@@ -42,7 +42,7 @@ git pull
 
 This command takes any changes on your remote repository and "pulls" it down to your local code. Try running it in your terminal now. In our case, there's nothing to pull so you should see a message that says `Already up-to-date.`
 
-Sometimes the code on your remote gets ahead of your local code. This could be because you're collaborating with other. It can also occur when you change it directly on Github. Let's try this.
+Sometimes the code on your remote gets ahead of your local code. This could be because you're collaborating with others. It can also occur when you change it directly on Github. Let's try this.
 
 Let's say you liked your README, but you noticed a minor typo. Let's fix it directly on Github by clicking the README.md file. 
 
