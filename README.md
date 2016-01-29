@@ -56,4 +56,4 @@ Perfect! The only problem is, now our code on our machine (our local repo) is ou
 git pull
 ``` 
 
-<a href='https://learn.co/lessons/git-remote-code-along' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/git-remote-code-along' title='Git Remotes + Github Code Along'>Git Remotes + Github Code Along</a> on Learn.co and start learning to code for free.</p>
