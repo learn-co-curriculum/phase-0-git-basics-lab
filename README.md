@@ -30,7 +30,7 @@ Let's go through an example to clarify remote repositories on Github.
 1. Let's add something to our README. Open the file and add whatever text you'd like.
 2. Now look at the remote repo on Github. Notice that the new text in your README is not there. Let's fix this by pushing our code up to Github.
 3. If we `git push` right away, we still won't get the changes because we have not tracked and committed the changes. Let's do that: `git add .` and `git commit -m "add content to README"`
-4. Now we can `git push -u`. The `-u` to git push means, as well as pushing, associate my master branch with the one I'm pushing to. 
+4. Now we can `git push -u origin master`. The `-u` to git push means, as well as pushing, associate my master branch with the one I'm pushing to. 
 5. Confirm that your changes are now on Github, and you're done!
 
 
