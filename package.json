@@ -1,0 +1,38 @@
+{
+  "name": "git-remote-code-along",
+  "version": "1.0.0",
+  "description": "## Objectives 1. Practice your GitHub command line skills 2. Create a remote repository on GitHub and connect it with a local folder",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/learn-co-curriculum/git-remote-code-along.git"
+  },
+  "keywords": [
+    "git",
+    "lab"
+  ],
+  "author": "flatiron school",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/learn-co-curriculum/git-remote-code-along/issues"
+  },
+  "homepage": "https://github.com/learn-co-curriculum/git-remote-code-along#readme",
+  "devDependencies": {
+    "babel-core": "^6.11.4",
+    "babel-preset-es2015": "^6.9.0",
+    "chai": "^3.5.0",
+    "expect": "^1.20.2",
+    "jsdom": "^9.2.0",
+    "mocha": "^2.5.3",
+    "mocha-jsdom": "^1.1.0",
+    "mocha-multi": "^0.9.0"
+  },
+  "dependencies": {
+    "chai-fs": "^2.0.0"
+  }
+}
