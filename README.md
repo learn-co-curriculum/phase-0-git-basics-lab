@@ -1,23 +1,30 @@
 # Git Remotes + GitHub Code-along
 
 ## Objectives
-1. Practice your GitHub command line skills
+1. Apply your GitHub command line skills
 2. Create a remote repository on GitHub and connect it with a local folder
 
 ## Testing your Work
 
-In this lesson, we're going to test our GitHub repository creation skills.
-Before we start following the instructions, from the main lesson folder, in
-your terminal, run `learn`.  You should see a series of messages appear; these
-are the tests that must be passed. As you follow the instructions below,
-continue to run `learn` in your terminal to see your progress. As you complete
-the steps, you should see that more and more of the tests pass, until all tests
-have been completed.
+It's time to test our GitHub repository creation skills! Before you dive into
+the instructions, in your terminal, run `learn` from the main lesson folder.
+You should see a series of messages appear; these are the tests that must be
+passed. As you follow the instructions below, continue to run `learn` in your
+terminal to see your progress. As you complete the steps, you should see that
+more and more of the tests pass, until all tests have been completed.
 
-**Note:** You must be in the parente folder of this lesson to run the tests, so
-if, during the instructions, you navigate into a new folder, make sure to use
-`cd ..` until you're back in the `git-remote-code-along` folder before running
-`learn`.
+Here's a reminder the workflow for completing the lab:
+
+1. `Run` learn`.
+2. Read the tests and errors.
+3. Write code; repeat steps 1 and 2 often until a test passes.
+4. Repeat as needed for further tests.
+5. Run `learn submit` when finished!
+
+
+**Note:** You must be in the parent folder of this lesson to run the tests, so
+if, you navigate into a new folder, make sure to use `cd ..` until you're back
+in the `git-remote-code-along` folder before running `learn`. 
 
 ## Instructions
 
@@ -43,12 +50,11 @@ normal terminal.
 
 6. Push up your local work to the remote
 
-
-If you've passed all of the tests, go ahead and run `learn submit` to register
-completion of this lab in learn.  As you become more comfortable with the
+If you've passed all of the tests, run `learn submit` to register
+completion of this lab in learn. As you become more comfortable with the
 terminal and git, you'll find yourself using the workflow of initializing,
 adding, committing and pushing your work on a regular basis.  
 
-Remember: Commit, and commit often!
+**Remember: Commit, and commit often!**
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/git-remote-code-along' title='Git Remotes + GitHub Code-Along'>Git Remotes + GitHub Code-Along</a> on Learn.co and start learning to code for free.</p>
