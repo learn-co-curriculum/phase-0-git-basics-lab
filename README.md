@@ -1,4 +1,4 @@
-# Git Remotes + GitHub Code-along
+# Git Remotes + GitHub Lab
 
 ## Objectives
 1. Apply your GitHub command line skills
