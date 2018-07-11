@@ -15,7 +15,7 @@ more and more of the tests pass, until all tests have been completed.
 
 Here's a reminder the workflow for completing the lab:
 
-1. `Run` learn`.
+1. Run `learn`.
 2. Read the tests and errors.
 3. Write code; repeat steps 1 and 2 often until a test passes.
 4. Repeat as needed for further tests.
