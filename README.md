@@ -59,4 +59,4 @@ adding, committing and pushing your work on a regular basis.
 
 [github]: https://github.com/
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/git-remote-code-along' title='Git Remotes + GitHub Code-Along'>Git Remotes + GitHub Code-Along</a> on Learn.co and start learning to code for free.</p>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/git-remotes-and-github-lab' title='Git Remotes + GitHub Lab'>Git Remotes + GitHub Code-Along</a> on Learn.co and start learning to code for free.</p>
