@@ -37,7 +37,7 @@ pass them.
 folder
 2. Use the terminal to initialize a new git repository
 3. Create a README.md file inside your new folder
-3. Create a remote repository on [GitHub](github.com), using your GitHub account
+3. Create a remote repository on [GitHub][github], using your GitHub account
 4. Set the newly created GitHub repository as the remote repo for your new local
 repository
 5. Use the terminal to add your README.md so it is tracked by git, and commit
@@ -56,5 +56,7 @@ terminal and git, you'll find yourself using the workflow of initializing,
 adding, committing and pushing your work on a regular basis.  
 
 **Remember: Commit, and commit often!**
+
+[github]: https://github.com/
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/git-remote-code-along' title='Git Remotes + GitHub Code-Along'>Git Remotes + GitHub Code-Along</a> on Learn.co and start learning to code for free.</p>
