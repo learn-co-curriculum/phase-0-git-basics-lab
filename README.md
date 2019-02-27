@@ -1,28 +1,28 @@
-# Git Remotes + GitHub Lab
+# Git Basics Lab
 
 ## Objectives
 
 - Understand how to complete labs on Learn
-- Apply what you've learned about git version control
-- Initialize a new git repository
+- Apply what you've learned about Git version control
+- Initialize a new Git repository
 - Stage and commit new content
 - Create a remote repository on GitHub
 - Connect the newly create local repository with the remote on GitHub
 
 ## Introduction
 
-Now that you've learned about git version control, your task is to apply that
-knowledge by creating your own local git repository, making changes, and pushing
-up those changes to a remote repo stored on [GitHub][].
+Now that you've learned about Git version control, your task is to apply that
+knowledge by creating your own local Git repository, making changes, and pushing
+up those changes to a remote repo stored on [GitHub][github].
 
-So far lessons have only contained written content on a specific topic - all you
+So far lessons have only contained written content on a specific topic. All you
 needed to do was read through the lesson and continue on. This lesson, however,
-is considered a _lab_. Labs are exercises - they have some written content to
+is considered a _lab_. Labs are exercises that have some written content to
 guide you, but also contain _tests_ that must be passed in order to complete
 the lesson.
 
 In this lab, we're going to go through the process completing a Learn lab
-while reinforcing our understanding of git.
+while reinforcing our understanding of Git.
 
 ## Getting Started
 
@@ -70,7 +70,7 @@ instance, it says `this lab has a folder name my-repository`, followed by
 `AssertionError: no folder name "my-repository" was found`. This test is looking
 specifically for a folder, `my-repository`, to exist inside this lab. To pass
 this test, create a folder by that name and run `learn` again. If successful,
-you should not only see _five_ failed tests. One down, five more to go.
+you should only see _five_ failed tests. One down, five more to go.
 
 ## Instructions
 
@@ -87,17 +87,17 @@ back in the `git-basics-lab` folder before running `learn`.
 1. Create a new folder locally named `my-repository`. This folder should be side
    by side with the `test` folder of this lab.
 
-2. Navigate into the new folder using `cd` on the command line
+2. Navigate into the new folder using `cd` on the command line.
 
 3. While inside `my-repository`, using the command line, initialize a new git
    repository. You'll know you've done it if you see 'Initialized empty Git
    repository in <...your local directory>/my-repository/.git/'
 
-4. Create a README.md file inside `my-repository`
+4. Create a README.md file inside `my-repository`.
 
 5. If you run `git status` in your command line, you should see that `README.md`
    is now listed as an untracked file. Add `README.md` so that it is tracked by
-   git
+   Git.
 
 6. Once the file is tracked, running `git status` again will show that
    `README.md` is staged and ready to be committed. Go ahead and create a commit
@@ -115,11 +115,11 @@ back in the `git-basics-lab` folder before running `learn`.
    (`git remote add origin...`) and run in your command line to connect your
    local repository with the new remote one.
 
-8. Push up your local work to the remote
+8. Push up your local work to the remote.
 
-If you've followed all the steps, run `learn` to confirm all tests are passing.
-If not, follow the messages provided by each failing test to get through any
-remaining tests. If all tests are passing, when you run `learn`, Learn.co will
+After you've completed all the steps, run `learn` to confirm all tests are
+passing. If some of the tests fail, follow the messages provided by each failing
+test to fix them. If all tests are passing, when you run `learn`, Learn.co will
 be notified and register that you've passed the tests.
 
 Once you've passed all tests, run `learn submit` to register
@@ -127,9 +127,9 @@ completion of this lab on Learn.co.
 
 ## Conclusion
 
-As you become more comfortable with the terminal and git, you'll find yourself
+As you become more comfortable with the terminal and Git, you'll find yourself
 using the workflow of initializing, adding, committing and pushing your work on
-a regular basis. These commands are at the core of git version control. By
+a regular basis. These commands are at the core of Git version control. By
 knowing them, you now have the ability to create your own repositories and
 contribute to repositories that already exist.
 
