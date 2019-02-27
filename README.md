@@ -11,18 +11,19 @@
 
 ## Introduction
 
-Now that you've learned about Git version control, your task is to apply that
-knowledge by creating your own local Git repository, making changes, and pushing
-up those changes to a remote repo stored on [GitHub][github].
-
-So far lessons have only contained written content on a specific topic. All you
-needed to do was read through the lesson and continue on. This lesson, however,
+So far lessons have only contained written content on specific topics. All you
+needed to do was read through each lesson and continue on. This lesson, however,
 is considered a _lab_. Labs are exercises that have some written content to
 guide you, but also contain _tests_ that must be passed in order to complete
 the lesson.
 
-In this lab, we're going to go through the process completing a Learn lab
-while reinforcing our understanding of Git.
+Now that you've learned about Git version control, in this lab, we're going to
+go through the entire process of creating a local Git repository, creating an
+initial commit and pushing that work to a remote repo stored on
+[GitHub][github].
+
+**Note:** If you are new to using Learn.co and this is your first lab, welcome!
+This lesson will include all the steps necessary to submit your lab work to Learn.co.
 
 ## Getting Started
 
@@ -34,11 +35,12 @@ To start work on this lab, while on Learn.co, click the "Open IDE" button.
 > automatically
 
 > If you are using your own local environment set up, you will need to manually
-> fork and clone the lesson. Click on the GitHub button next to "Open IDE" to
-> visit the lab repository where you can fork it.
+> fork and clone this lesson. Click on the GitHub button next to "Open IDE" to
+> visit this lab's repository. Once there, create a personal fork of the repo
+> and clone it down
 
 Once you've got the lesson open, run `learn` in the command line. Six failed
-tests should print out starting with this:
+tests should print out, starting with this:
 
 ```shell
 this lab
@@ -133,6 +135,15 @@ a regular basis. These commands are at the core of Git version control. By
 knowing them, you now have the ability to create your own repositories and
 contribute to repositories that already exist.
 
+_*Fun Fact:*_ All Learn.co lessons, including this lab, are _themselves_ public
+repositories on [GitHub][github]. Although some of the steps are not obvious,
+when opening this lesson in the Learn IDE, you are actually _forking_ the
+repository and _cloning_ it down. When you've passed all tests and run `learn submit`, you're pushing your work up to your own remote (and submitting
+something called a [pull request][pr] to the original lab repo). If you ever
+want to look back on how you solved a previous lab, they're all available on
+your personal GitHub account.
+
 [github]: https://github.com/
+[pr]: https://help.github.com/en/articles/about-pull-requests
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/git-remotes-and-github-lab' title='Git Remotes + GitHub Lab'>Git Remotes + GitHub Code-Along</a> on Learn.co and start learning to code for free.</p>
