@@ -42,7 +42,7 @@ To start work on this lab, while on Learn.co, click the "Open IDE" button.
 Once you've got the lesson open, run `learn` in the command line. Six failed
 tests should print out, starting with this:
 
-```shell
+```text
 this lab
   1) has a folder named my-repository
   2) has a valid git repository initialized for the my-repository folder
