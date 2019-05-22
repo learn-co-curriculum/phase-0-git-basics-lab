@@ -5,6 +5,7 @@ tags:
   - pull
   - push
   - remote
+  - no solution branch possible
 languages:
   - none
 resources: 0
