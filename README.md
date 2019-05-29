@@ -1,6 +1,6 @@
 # Git Basics Lab
 
-## Objectives
+## Learning Goals
 
 - Understand how to complete labs on Learn
 - Apply what you've learned about Git version control
