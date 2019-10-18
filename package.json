@@ -6,7 +6,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -R mocha-multi --reporter-options spec=-,json=.results.json"
   },
   "repository": {
     "type": "git",
@@ -28,7 +28,7 @@
     "jsdom": "^9.2.0",
     "mocha": "^6.1.4",
     "mocha-jsdom": "~1.1.0",
-    "mocha-multi": "^1.0.0"
+    "mocha-multi": "^1.1.0"
   },
   "dependencies": {
     "chai-fs": "^2.0.0"
