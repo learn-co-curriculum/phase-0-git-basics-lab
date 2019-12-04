@@ -22,7 +22,7 @@ go through the entire process of creating a local Git repository, creating an
 initial commit and pushing that work to a remote repo stored on
 [GitHub][github].
 
-**Note:** If you are new to using Learn.co and this is your first lab, welcome!
+**NOTE:** If you are new to using Learn.co and this is your first lab, welcome!
 This lesson will include all the steps necessary to submit your lab work to Learn.co.
 
 ## Getting Started
@@ -67,65 +67,106 @@ the local repository
     ...
 ```
 
-Each failed test includes an explanation. In the first test seen above, for
-instance, it says `this lab has a folder name my-repository`, followed by
-`AssertionError: no folder name "my-repository" was found`. This test is looking
-specifically for a folder, `my-repository`, to exist inside this lab. To pass
-this test, create a folder by that name and run `learn` again. If successful,
-you should only see _five_ failed tests. One down, five more to go.
+Each failed test includes an explanation.
+
+In the first test seen above, for instance, it says `this lab has a folder name
+my-repository`, followed by `AssertionError: no folder name "my-repository" was
+found`.
+
+This first test is looking specifically for a folder, `my-repository`, to exist
+inside this lab' main directory (or "folder"). You probably have a theory on
+how to correct that test after seeing that error! We're going to use these
+tests to let us know when we're all done.
 
 ## Instructions
 
-To get all tests passing in this lab, follow the steps below, applying commands
-you've learned in the previous lessons. You can track your progress in the lab
-at any time by running `learn` to see what tests are passing and failing.
+> ***IMPORTANT TIPS TO AVOID GETTING STUCK***
+> 
+> 1. The work you will do to set up the Git repository will be done in the
+>    `my-repository` directory (after you create it ;)). If you're doing `git`
+>    commands in the same directory as THIS `README` that you're reading right
+>    now, you're not going to get to working tests.
+> 2. When you run the tests, you will need to be in the top-level directory of
+>    this lab, (`git-basics-lab`, the directory with the `README` you're reading
+>    right now in it.)
 
-**Note:** You must be in the main repository folder of this lesson to run the
-tests. If you navigate into a new folder, make sure to use `cd ..` until you're
-back in the `git-basics-lab` folder before running `learn`.
+To get all tests passing in this lab, follow the steps below, applying commands
+you've learned in the previous lessons.
 
 ### Steps
 
-1. Create a new folder locally named `my-repository`. This folder should be side
-   by side with the `test` folder of this lab.
+As we saw above, there are **six** broken tests. Let's get them working.
 
-2. Navigate into the new folder using `cd` on the command line.
+1. Create a new directory locally named `my-repository`. This directory should
+   be side by side with the `test` directory of this lab. Use the Unix command
+   to create this directory. From the top-level of this lab, the parent directory
+   of `my-repository`, run `learn` and verify there are only 5 broken tests left.
+
+2. Navigate into the new directory `my-repository` using `cd` on the command
+   line.
 
 3. While inside `my-repository`, using the command line, initialize a new git
    repository. You'll know you've done it if you see 'Initialized empty Git
-   repository in <...your local directory>/my-repository/.git/'
+   repository in _<...your local directory>/my-repository/.git/'>_. Change _back-up_
+   to the parent directory and you should be back in the top-level directory. Run
+   `learn` and you should be down to **four tests** left. If that's true, change
+   _back_ into `my-repository`.
 
-4. Create a README.md file inside `my-repository`.
+4. Create a file called `README.md` inside `my-repository`.
 
-5. If you run `git status` in your command line, you should see that `README.md`
+5. If you run `git status` at the command line, you should see that `README.md`
    is now listed as an untracked file. Add `README.md` so that it is tracked by
    Git.
 
 6. Once the file is tracked, running `git status` again will show that
    `README.md` is staged and ready to be committed. Go ahead and create a commit
-   in the command line (don't forget to add `-m` when committing to include a
+   on the command line (don't forget to add `-m` when committing to include a
    message!)
 
-   **Note:** If you forget to include `-m` on when committing, you'll find you've
+   **NOTE:** If you forget to include `-m` on when committing, you'll find you've
    opened _vi_, the built in terminal text editor. To escape out of this editor,
-   press the 'esc' key once, then type `:x!` to close the editor and return to
+   press the 'esc' key once, then type `:q!` to close the editor and return to
    the normal terminal.
 
-7. Create a remote repository on [GitHub][github] using your personal GitHub
-   account. When creating a blank repository, you will be given instructions for
-   pushing an existing repository from the command line. Copy the first line
-   (`git remote add origin...`) and run in your command line to connect your
-   local repository with the new remote one.
+7. Change _back_ to the top-level directory, run `learn`, and you'll see that
+   the test output is looking pretty successful:
+```text
+  this lab
+    ✓ has a folder named my-repository
+    ✓ has a valid git repository initialized for the my-repository folder
+    ✓ has a README.md file in the my-repository folder
 
-8. Push up your local work to the remote.
+  the local repository
+    ✓ has README.md as a tracked file
+    ✓ has at least one commit
+    1) has been pushed up to the remote repository
 
-After you've completed all the steps, run `learn` to confirm all tests are
-passing. If some of the tests fail, follow the messages provided by each failing
-test to fix them. If all tests are passing, when you run `learn`, Learn.co will
-be notified and register that you've passed the tests.
 
-Once you've passed all tests, run `learn submit` to register
-completion of this lab on Learn.co.
+  5 passing (18ms)
+  1 failing
+
+  1) the local repository
+       has been pushed up to the remote repository:
+     AssertionError: no record of pushing to a remote was found. Follow the instructions on GitHub to connect and push to a new remote repository: value: expected './my-repository/.git/logs/refs/remotes' to exist
+```
+
+Almost done! Change _back_ into the `my-repository` directory.
+
+8. Create a remote repository on [GitHub][github] using your personal GitHub
+   account. When we create a blank repository, we are given instructions for
+   adding that repository as a remote.  Copy the first line (`git remote add
+   origin...`) and paste-and-run it from your command line to connect your local
+   repository with the new remote one.
+
+9. Still within the `my-repository` directory, push up your local work to the
+   remote.
+
+10. Change _back_ up to the top-level directory and run `learn` once more, your
+    tests should all be passing
+
+If all tests are passing, when you run `learn`, Learn.co will be notified and
+register that you've passed the tests.  Once you've passed all tests, run
+`learn submit` to register completion of this lab on Learn.co.
 
 ## Conclusion
 
@@ -135,13 +176,15 @@ a regular basis. These commands are at the core of Git version control. By
 knowing them, you now have the ability to create your own repositories and
 contribute to repositories that already exist.
 
-_*Fun Fact:*_ All Learn.co lessons, including this lab, are _themselves_ public
-repositories on [GitHub][github]. Although some of the steps are not obvious,
-when opening this lesson in the Learn IDE, you are actually _forking_ the
-repository and _cloning_ it down. When you've passed all tests and run `learn submit`, you're pushing your work up to your own remote (and submitting
-something called a [pull request][pr] to the original lab repo). If you ever
-want to look back on how you solved a previous lab, they're all available on
-your personal GitHub account.
+In this lab you used tests to guide you in the basics of setting up a new local
+Git repository and binding it to a remote repository on GitHub. By pushing your
+work to a remote repository you've backed it up _and_ made it available for the
+world to see via GitHub. Professional developers use this process to share code
+with each other, to document their code, and to earn interview slots by showing
+off what they're capable of. You did this guided by *tests*. It's common for
+developers to write tasks as tests that all fail and then slowly work to get
+them all passing. It's like a to-do list that verifies you've actually done the
+work!
 
 [github]: https://github.com/
 [pr]: https://help.github.com/en/articles/about-pull-requests
