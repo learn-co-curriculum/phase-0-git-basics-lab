@@ -130,6 +130,7 @@ As we saw above, there are **six** broken tests. Let's get them working.
 
 7. Change _back_ to the top-level directory, run `learn`, and you'll see that
    the test output is looking pretty successful:
+   
 ```text
   this lab
     ✓ has a folder named my-repository
