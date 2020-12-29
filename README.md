@@ -2,7 +2,7 @@
 
 ## Learning Goals
 
-- Understand how to complete labs on Learn
+- Understand how to complete assignments
 - Apply what you've learned about Git version control
 - Initialize a new Git repository
 - Stage and commit new content
@@ -13,33 +13,54 @@
 
 So far lessons have only contained written content on specific topics. All you
 needed to do was read through each lesson and continue on. This lesson, however,
-is considered a _lab_. Labs are exercises that have some written content to
-guide you, but also contain _tests_ that must be passed in order to complete
-the lesson.
+is considered an _assignment_. Assignments are exercises that have some written content to
+guide you, but also ask you to complete some work of your own. Many assignments, like this
+one, include _tests_ that must be passed in order to complete the lesson. Assignments with tests
+are often referred to as a _labs_ in our course.
 
-Now that you've learned about Git version control, in this lab, we're going to
+Now that you've learned about Git version control, in this _lab_, we're going to
 go through the entire process of creating a local Git repository, creating an
 initial commit and pushing that work to a remote repo stored on
 [GitHub][github].
 
-**NOTE:** If you are new to using Learn.co and this is your first lab, welcome!
-This lesson will include all the steps necessary to submit your lab work to Learn.co.
-
 ## Getting Started
 
-To start work on this lab, while on Learn.co, click the "Open IDE" button.
+To start work on this lab, you will first need to fork this assignment and clone it to your
+local environment. Let's quickly review this process:
 
-> If you are using the in-browser Learn IDE, the IDE will open on the page
+1) Click on the GitHub 'Octocat' button in the upper right corner of this lesson to see this assignment in GitHub
+2) In GitHub, click the **Fork** button in the upper right corner of the page. Choose to fork to your personal account if prompted.
+3) Once the forking process is complete, you should be looking at your personal copy of the assignment on GitHub
+4) Click **Code**, choose **SSH**, then click the _clipboard_ icon to copy the information we'll need about this repository
+5) In your terminal, type `git clone `, paste the info you copied from GitHub. The command should look something like this (but with your personal account name):
 
-> If you are using the Learn IDE on your computer, the IDE should open
-> automatically
+```ssh
+git clone git@github.com:<your-github-username>/git-basics-lab-phase-0.git
+```
 
-> If you are using your own local environment set up, you will need to manually
-> fork and clone this lesson. Click on the GitHub button next to "Open IDE" to
-> visit this lab's repository. Once there, create a personal fork of the repo
-> and clone it down
+6) A folder will be created wherever you run this command. The folder name will be the same as the repository, so in this case, `git-basics-lab-phase-0`. Navigate into this folder with `cd git-basics-lab-phase-0`.
 
-Once you've got the lesson open, run `learn` in the command line. Six failed
+Once inside the folder, you are ready to work on the lab.
+
+## Solving this Lab
+
+Once you're in your local clone of this lab, the first step is to run
+the lab's tests to get a sense of what you need to do. We do this with
+two terminal commands. First, we run the following:
+
+```sh
+npm install
+```
+
+This sets up the tools we'll use for testing. To run the tests, type the following
+once you regain control of the command line:
+
+```sh
+npm test
+```
+
+This will run all the tests included for this lab. You should see a lot of output, enough
+that you may need to scroll up in your terminal to see it all. Six failed
 tests should print out, starting with this:
 
 ```text
@@ -87,11 +108,11 @@ tests to let us know when we're all done.
 >    commands in the same directory as THIS `README` that you're reading right
 >    now, you're not going to get to working tests.
 > 2. When you run the tests, you will need to be in the top-level directory of
->    this lab, (`git-basics-lab`, the directory with the `README` you're reading
+>    this lab, (`git-basics-lab-phase-0`, the directory with the `README` you're reading
 >    right now in it.)
 
-To get all tests passing in this lab, follow the steps below, applying commands
-you've learned in the previous lessons.
+Follow the steps provided below carefully to help ensure you are doing things in the
+right location.
 
 ### Steps
 
@@ -100,17 +121,17 @@ As we saw above, there are **six** broken tests. Let's get them working.
 1. Create a new directory locally named `my-repository`. This directory should
    be side by side with the `test` directory of this lab. Use the Unix command
    to create this directory. From the top-level of this lab, the parent directory
-   of `my-repository`, run `learn` and verify there are only 5 broken tests left.
+   of `my-repository`, run `npm test` and verify there are only 5 broken tests left.
 
 2. Navigate into the new directory `my-repository` using `cd` on the command
    line.
 
 3. While inside `my-repository`, using the command line, initialize a new git
    repository. You'll know you've done it if you see 'Initialized empty Git
-   repository in _<...your local directory>/my-repository/.git/'>_. Change _back-up_
-   to the parent directory and you should be back in the top-level directory. Run
-   `learn` and you should be down to **four tests** left. If that's true, change
-   _back_ into `my-repository`.
+   repository in _<...your local directory>/my-repository/.git/'>_. **Change _back-up_
+   to the parent directory** and you should be back in the top-level directory. Run
+   `npm test` again and you should be down to **four tests** left. If that's true, **change
+   _back_ into `my-repository`**.
 
 4. Create a file called `README.md` inside `my-repository`.
 
@@ -123,12 +144,12 @@ As we saw above, there are **six** broken tests. Let's get them working.
    on the command line (don't forget to add `-m` when committing to include a
    message!)
 
-     **NOTE:** If you forget to include `-m` on when committing, you'll find you've
+     **NOTE:** If you forget to include `-m` when committing, you may find you've
      opened _vi_, the built in terminal text editor. To escape out of this editor,
      press the 'esc' key once, then type `:q!` to close the editor and return to
      the normal terminal.
 
-7. Change _back_ to the top-level directory, run `learn`, and you'll see that
+7. **Change _back_ to the top-level directory**, run `npm test`, and you'll see that
    the test output is looking pretty successful:
    
 ```text
@@ -151,23 +172,75 @@ As we saw above, there are **six** broken tests. Let's get them working.
      AssertionError: no record of pushing to a remote was found. Follow the instructions on GitHub to connect and push to a new remote repository: value: expected './my-repository/.git/logs/refs/remotes' to exist
 ```
 
-Almost done! Change _back_ into the `my-repository` directory.
+Almost done! **Change _back_ into the `my-repository` directory**.
 
 8. Create a remote repository on [GitHub][github] using your personal GitHub
-   account. When we create a blank repository, we are given instructions for
-   adding that repository as a remote.  Copy the first line (`git remote add
-   origin...`) and paste-and-run it from your command line to connect your local
-   repository with the new remote one.
+   account and connect it to your newly created local repository.
+   
+   ![new repo](https://curriculum-content.s3.amazonaws.com/git-workflow/new-repo-menu.png)
+   
+   ![name new repo](https://curriculum-content.s3.amazonaws.com/git-workflow/name-new-repo.png)
+   
+   When we create a blank repository, we are given multiple options for how to get started. Since we have a local folder with
+   Git initialized already, we'll use the instructions for creating a new repository using the command line.
+   
+   ![command line repo commands](https://curriculum-content.s3.amazonaws.com/git-workflow/new-repo-commands.png)
+   
+   If you've been following along, you may notice that the first commands listed are things you've already done - `git init` initialized
+   the `my-repository` directory as a local Git repository; `git add README.md` tracks the `README.md` file (you may have used `git add .`,
+   which will work too); `git commit -m "first commit"` commits the newly created `README.md` file with a message.
+   
+   The remaining commands still need to be run. First we run the following:
+   
+   ```sh
+   git branch -M main
+   ```
+   
+   If you recall from the version control basics lesson, going forward `main` will be used as the default name of the... main... branch in a
+   repository. Depending on your environment you may still have a version of Git that defaults to `master`. If this is the case, the above
+   command will change this `master` branch to `main`.
 
-9. Still within the `my-repository` directory, push up your local work to the
-   remote.
+   After setting the branch, we need to add the newly created GitHub repo as the remote for your local `my-repository` repo. This command
+   will include info specific to your GitHub account and the name you gave your GitHub repo:
 
-10. Change _back_ up to the top-level directory and run `learn` once more, your
-    tests should all be passing
+   ```sh
+   git remote add origin git@github.com:<your-github-username>/<your-github-repository>.git
+   ```
 
-If all tests are passing, when you run `learn`, Learn.co will be notified and
-register that you've passed the tests.  Once you've passed all tests, run
-`learn submit` to register completion of this lab on Learn.co.
+9. The last step listed pushes your local work up to the remote:
+
+   ```sh
+   git push -u origin main
+   ```
+
+10. **Change _back_ up to the top-level directory** and run `npm test` once more, your
+    tests should all be passing.
+
+Once you've passed all tests, if you visit the newly created remote repository on GitHub, you should
+see that the `README.md` file you created is now present.
+
+## Additional Practice
+
+We recommend taking time to become familiar with Git commands since you'll be relying on them a lot. If
+you'd like to practice further, **change directory back into the `my-repository` folder** and try the following:
+
+- Create another file, then add, commit, and push to the remote
+- Modify the contents of `README.md`, then add, commit, and push to the remote
+- Rename `README.md`, then add, commit, and push to the remote
+
+## Wrapping Up
+
+If you would like to preserve the work you've done for this lab on GitHub, you'll need to push it up
+to your fork of this assignment. **Change directory to the top-level** once again, then run the following:
+
+```sh
+git add .
+git commit -m "Done with assignment"
+git push origin master
+```
+
+Note that this assignment was created with a `master` branch as the default, so the `push` command is different
+than when you pushed `my-repository`.
 
 ## Conclusion
 
