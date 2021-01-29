@@ -29,9 +29,13 @@ To start work on this lab, you will first need to fork this assignment and clone
 local environment. Let's quickly review this process:
 
 1) Click on the GitHub 'Octocat' button in the upper right corner of this lesson to see this assignment in GitHub
+
 2) In GitHub, click the **Fork** button in the upper right corner of the page. Choose to fork to your personal account if prompted.
+
 3) Once the forking process is complete, you should be looking at your personal copy of the assignment on GitHub
+
 4) Click **Code**, choose **SSH**, then click the _clipboard_ icon to copy the information we'll need about this repository
+
 5) In your terminal, type `git clone `, paste the info you copied from GitHub. The command should look something like this (but with your personal account name):
 
 ```ssh
