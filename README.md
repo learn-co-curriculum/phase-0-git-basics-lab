@@ -28,9 +28,11 @@ initial commit and pushing that work to a remote repo stored on
 To start work on this lab, you will first need to fork this assignment and clone it to your
 local environment. Let's quickly review this process:
 
-1) Click on the GitHub 'Octocat' button in the upper right corner of this lesson to see this assignment in GitHub
+1) Click the **Fork** button at the top of this page in Canvas.
 
-2) In GitHub, click the **Fork** button in the upper right corner of the page. Choose to fork to your personal account if prompted.
+![fork button](https://curriculum-content.s3.amazonaws.com/fork-link.png)
+
+Alternatively, you can click on the GitHub 'Octocat' button in the upper right corner of this lesson to see this assignment in GitHub, then click GitHub's **Fork** button in the upper right corner of the page. Choose to fork to your personal account if prompted.
 
 3) Once the forking process is complete, you should be looking at your personal copy of the assignment on GitHub
 
