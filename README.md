@@ -37,17 +37,17 @@ local environment. Let's quickly review this process:
 
 [forking]: https://guides.github.com/activities/forking/
 
-3) Choose to fork to your personal account if prompted. Once the forking process is complete, you should be looking at your personal copy of the assignment on GitHub
+2) Choose to fork to your personal account if prompted. Once the forking process is complete, you should be looking at your personal copy of the assignment on GitHub
 
-4) Click **Code**, choose **SSH**, then click the _clipboard_ icon to copy the information we'll need about this repository
+3) Click **Code**, choose **SSH**, then click the _clipboard_ icon to copy the information we'll need about this repository
 
-5) In your terminal, type `git clone `, paste the info you copied from GitHub. The command should look something like this (but with your personal account name):
+4) In your terminal, type `git clone `, paste the info you copied from GitHub. The command should look something like this (but with your personal account name):
 
 ```ssh
 git clone git@github.com:<your-github-username>/git-basics-lab-phase-0.git
 ```
 
-6) A folder will be created wherever you run this command. The folder name will be the same as the repository, so in this case, `git-basics-lab-phase-0`. Navigate into this folder with `cd git-basics-lab-phase-0`.
+5) A folder will be created wherever you run this command. The folder name will be the same as the repository, so in this case, `git-basics-lab-phase-0`. Navigate into this folder with `cd git-basics-lab-phase-0`.
 
 Once inside the folder, you are ready to work on the lab.
 
