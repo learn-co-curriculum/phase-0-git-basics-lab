@@ -7,7 +7,7 @@
 - Initialize a new Git repository
 - Stage and commit new content
 - Create a remote repository on GitHub
-- Connect the newly create local repository with the remote on GitHub
+- Connect the newly created local repository with the remote on GitHub
 
 ## Introduction
 
@@ -37,11 +37,11 @@ local environment. Let's quickly review this process:
 
 [forking]: https://guides.github.com/activities/forking/
 
-2) Choose to fork to your personal account if prompted. Once the forking process is complete, you should be looking at your personal copy of the assignment on GitHub
+2) Choose to fork to your personal account if prompted. Once the forking process is complete, you should be looking at your personal copy of the assignment on GitHub.
 
-3) Click **Code**, choose **SSH**, then click the _clipboard_ icon to copy the information we'll need about this repository
+3) Click **Code**, choose **SSH**, then click the _clipboard_ icon to copy the information we'll need about this repository.
 
-4) In your terminal, type `git clone `, paste the info you copied from GitHub. The command should look something like this (but with your personal account name):
+4) In your terminal, type `git clone `, and paste the info you copied from GitHub. The command should look something like this (but with your personal account name):
 
 ```ssh
 git clone git@github.com:<your-github-username>/git-basics-lab-phase-0.git
@@ -99,12 +99,12 @@ the local repository
 
 Each failed test includes an explanation.
 
-In the first test seen above, for instance, it says `this lab has a folder name
+In the first test seen above, for instance, it says `this lab has a folder named
 my-repository`, followed by `AssertionError: no folder name "my-repository" was
 found`.
 
 This first test is looking specifically for a folder, `my-repository`, to exist
-inside this lab' main directory (or "folder"). You probably have a theory on
+inside this lab's main directory (or "folder"). You probably have a theory on
 how to correct that test after seeing that error! We're going to use these
 tests to let us know when we're all done.
 
@@ -118,7 +118,7 @@ tests to let us know when we're all done.
 >    now, you're not going to get to working tests.
 > 2. When you run the tests, you will need to be in the top-level directory of
 >    this lab, (`git-basics-lab-phase-0`, the directory with the `README` you're reading
->    right now in it.)
+>    right now in it).
 
 Follow the steps provided below carefully to help ensure you are doing things in the
 right location.
@@ -151,7 +151,7 @@ As we saw above, there are **six** broken tests. Let's get them working.
 6. Once the file is tracked, running `git status` again will show that
    `README.md` is staged and ready to be committed. Go ahead and create a commit
    on the command line (don't forget to add `-m` when committing to include a
-   message!)
+   message!).
 
      **NOTE:** If you forget to include `-m` when committing, you may find you've
      opened _vi_, the built in terminal text editor. To escape out of this editor,
