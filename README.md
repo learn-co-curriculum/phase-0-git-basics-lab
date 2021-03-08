@@ -142,7 +142,7 @@ As we saw above, there are **six** broken tests. Let's get them working.
    `npm test` again and you should be down to **four tests** left. If that's true, **change
    _back_ into `my-repository`**.
 
-4. Create a file called `README.md` inside `my-repository`.
+4. Create a **file** (not a folder) called `README.md` inside `my-repository`.
 
 5. If you run `git status` at the command line, you should see that `README.md`
    is now listed as an untracked file. Add `README.md` so that it is tracked by
