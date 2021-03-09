@@ -181,7 +181,7 @@ As we saw above, there are **six** broken tests. Let's get them working.
      AssertionError: no record of pushing to a remote was found. Follow the instructions on GitHub to connect and push to a new remote repository: value: expected './my-repository/.git/logs/refs/remotes' to exist
 ```
 
-    Almost done! **Change _back_ into the `my-repository` directory**.
+   Almost done! **Change _back_ into the `my-repository` directory**.
 
 8. Create a remote repository on [GitHub][github] using your personal GitHub
    account and connect it to your newly created local repository.
