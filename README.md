@@ -29,7 +29,11 @@ initial commit and pushing that work to a remote repo stored on
 To start work on this lab, you will first need to fork this assignment and clone
 it to your local environment. Let's quickly review this process:
 
-1. Click the **Fork** button at the top of this page in Canvas.
+### Steps
+
+#### Step 1
+
+Click the **Fork** button at the top of this page in Canvas.
 
 ![fork button](https://curriculum-content.s3.amazonaws.com/fork-link.png)
 
@@ -39,24 +43,32 @@ it to your local environment. Let's quickly review this process:
 
 [forking]: https://guides.github.com/activities/forking/
 
-2. Choose to fork to your personal account if prompted. Once the forking process
-   is complete, you should be looking at your personal copy of the assignment on
-   GitHub.
+#### Step 2
 
-3. Click **Code**, choose **SSH**, then click the _clipboard_ icon to copy the
-   information we'll need about this repository.
+Choose to fork to your personal account if prompted. Once the forking process
+is complete, you should be looking at your personal copy of the assignment on
+GitHub.
 
-4. In your terminal, type `git clone `, and paste the info you copied from
-   GitHub. The command should look something like this (but with your personal
-   account name):
+#### Step 3
+
+Click **Code**, choose **SSH**, then click the _clipboard_ icon to copy the
+information we'll need about this repository.
+
+#### Step 4
+
+In your terminal, type `git clone `, and paste the info you copied from
+GitHub. The command should look something like this (but with your personal
+account name):
 
 ```ssh
 $ git clone git@github.com:<your-github-username>/git-basics-lab-phase-0.git
 ```
 
-5. A folder will be created wherever you run this command. The folder name will
-   be the same as the repository, so in this case, `git-basics-lab-phase-0`.
-   Navigate into this folder with `cd git-basics-lab-phase-0`.
+#### Step 5
+
+A folder will be created wherever you run this command. The folder name will
+be the same as the repository, so in this case, `git-basics-lab-phase-0`.
+Navigate into this folder with `cd git-basics-lab-phase-0`.
 
 Once inside the folder, you are ready to work on the lab.
 
