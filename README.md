@@ -60,7 +60,7 @@ In your terminal, type `git clone `, and paste the info you copied from
 GitHub. The command should look something like this (but with your personal
 account name):
 
-```ssh
+```console
 $ git clone git@github.com:<your-github-username>/git-basics-lab-phase-0.git
 ```
 
@@ -78,14 +78,14 @@ Once you're in your local clone of this lab, the first step is to run the lab's
 tests to get a sense of what you need to do. We do this with two terminal
 commands. First, we run the following:
 
-```sh
+```console
 $ npm install
 ```
 
 This sets up the tools we'll use for testing. To run the tests, type the following
 once you regain control of the command line:
 
-```sh
+```console
 $ npm test
 ```
 
@@ -93,7 +93,8 @@ This will run all the tests included for this lab. You should see a lot of
 output, enough that you may need to scroll up in your terminal to see it all.
 Six failed tests should print out, starting with this:
 
-```text
+```console
+$ npm test
 this lab
   1) has a folder named my-repository
   2) has a valid git repository initialized for the my-repository folder
@@ -194,7 +195,8 @@ message!).
 **Change _back_ to the top-level directory**, run `npm test`, and you'll see
 that the test output is looking pretty successful:
 
-```txt
+```console
+$ npm test
   this lab
     ✓ has a folder named my-repository
     ✓ has a valid git repository initialized for the my-repository folder
@@ -239,7 +241,7 @@ message.
 
 The remaining commands still need to be run. First we run the following:
 
-```sh
+```console
 $ git branch -M main
 ```
 
@@ -253,7 +255,7 @@ After setting the branch, we need to add the newly created GitHub repo as the
 remote for your local `my-repository` repo. This command will include info
 specific to your GitHub account and the name you gave your GitHub repo:
 
-```sh
+```console
 $ git remote add origin git@github.com:<your-github-username>/<your-github-repository>.git
 ```
 
@@ -261,7 +263,7 @@ $ git remote add origin git@github.com:<your-github-username>/<your-github-repos
 
 The last step listed pushes your local work up to the remote:
 
-```sh
+```console
 $ git push -u origin main
 ```
 
@@ -289,7 +291,7 @@ If you would like to preserve the work you've done for this lab on GitHub,
 you'll need to push it up to your fork of this assignment. **Change directory to
 the top-level** once again, then run the following:
 
-```sh
+```console
 $ git add .
 $ git commit -m "Done with assignment"
 $ git push origin master
