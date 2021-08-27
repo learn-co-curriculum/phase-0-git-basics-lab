@@ -61,14 +61,14 @@ GitHub. The command should look something like this (but with your personal
 account name):
 
 ```console
-$ git clone git@github.com:<your-github-username>/git-basics-lab-phase-0.git
+$ git clone git@github.com:<your-github-username>/phase-0-git-basics-lab.git
 ```
 
 #### Step 5
 
 A folder will be created wherever you run this command. The folder name will
-be the same as the repository, so in this case, `git-basics-lab-phase-0`.
-Navigate into this folder with `cd git-basics-lab-phase-0`.
+be the same as the repository, so in this case, `phase-0-git-basics-lab`.
+Navigate into this folder with `cd phase-0-git-basics-lab`.
 
 Once inside the folder, you are ready to work on the lab.
 
@@ -138,7 +138,7 @@ tests to let us know when we're all done.
 >    you're not going to get to working tests.
 >
 > 2. When you run the tests, you will need to be in the top-level directory of
->    this lab, (`git-basics-lab-phase-0`, the directory with the `README` you're
+>    this lab, (`phase-0-git-basics-lab`, the directory with the `README` you're
 >    reading right now in it).
 
 Follow the steps provided below carefully to help ensure you are doing things in the
