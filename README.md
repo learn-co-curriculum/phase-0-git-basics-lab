@@ -56,7 +56,7 @@ information we'll need about this repository.
 
 #### Step 4
 
-In your terminal, type `git clone `, and paste the info you copied from
+In your terminal, type `git clone`, and paste the info you copied from
 GitHub. The command should look something like this (but with your personal
 account name):
 
@@ -121,7 +121,9 @@ the local repository
 
 Each failed test includes an explanation.
 
-In the first test seen above, for instance, it says `this lab has a folder named my-repository`, followed by `AssertionError: no folder name "my-repository" was found`.
+In the first test seen above, for instance, it says
+`this lab has a folder named my-repository`, followed by
+`AssertionError: no folder name "my-repository" was found`.
 
 This first test is looking specifically for a folder, `my-repository`, to exist
 inside this lab's main directory (or "folder"). You probably have a theory on
@@ -141,8 +143,8 @@ tests to let us know when we're all done.
 >    this lab, (`phase-0-git-basics-lab`, the directory with the `README` you're
 >    reading right now in it).
 
-Follow the steps provided below carefully to help ensure you are doing things in the
-right location.
+Follow the steps provided below carefully to help ensure you are doing things in
+the right location.
 
 ### Steps
 
@@ -227,8 +229,9 @@ account and connect it to your newly created local repository.
 
 ![name new repo](https://curriculum-content.s3.amazonaws.com/git-workflow/name-new-repo.png)
 
-When we create a blank repository, we are given multiple options for how to get started. Since we have a local folder with
-Git initialized already, we'll use the instructions for creating a new repository using the command line.
+When we create a blank repository, we are given multiple options for how to get
+started. Since we have a local folder with Git initialized already, we'll use
+the instructions for creating a new repository using the command line.
 
 ![command line repo commands](https://curriculum-content.s3.amazonaws.com/git-workflow/new-repo-commands.png)
 
@@ -247,7 +250,7 @@ $ git branch -M main
 
 If you recall from the version control basics lesson, going forward `main` will
 be used as the default name of the... main... branch in a repository. Depending
-on your environment you may still have a version of Git that defaults to
+on your environment you may still have an older version of Git that defaults to
 `master`. If this is the case, the above command will change this `master`
 branch to `main`.
 
